@@ -1,0 +1,84 @@
+﻿
+/* CheckBox - modern style */
+
+label.input-label > input
+{
+    display: none;
+}
+
+label.input-label > input + span
+{
+    display: inline-block;
+    cursor: pointer;
+    outline: 0 none;
+}
+
+label.input-label > input + span:before
+{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image:url('Images/CheckBox/CheckBoxModern1.png');
+    background-position:0px 0px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    vertical-align: -5px;
+}
+
+label.input-label > input + span:focus:before
+{
+    background-position:0px -40px;
+}
+
+label.input-label > input:checked + span:before
+{
+    background-position:-20px 0px;
+}
+
+label.input-label > input:checked + span:focus:before
+{
+    background-position:-20px -40px;
+}
+
+label.input-label > input + span:hover:not(:focus):before
+{
+    background-position:0px -20px;
+}
+
+label.input-label > input:checked + span:hover:not(:focus):before
+{
+    background-position:-20px -20px;
+}
+
+label.input-label > input:disabled + span
+{
+    cursor: default;
+}
+
+label.input-label > input:disabled + span:before
+{
+    background-position:0 -60px;
+}
+
+label.input-label > input:disabled + span:hover:before
+{
+    background-position:0 -60px;
+}
+
+label.input-label > input:checked:disabled + span:before
+{
+    background-position:-20px -60px;
+}
+
+label.input-label > input:checked:disabled + span:hover:before
+{
+    background-position:-20px -60px;
+}
+
+/* RadioButton - modern style */
+
+label.input-label > input[type=radio] + span:before
+{
+    background-image:url('Images/CheckBox/RadioButtonModern1.png');
+}

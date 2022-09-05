@@ -1,0 +1,266 @@
+﻿.distribution-header {
+    background-color: #E4F0FF;
+    border: 1px solid #ccd7e4;
+    font-size: 14px;
+    padding: 10px 15px;
+    -ms-border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -ms-border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.wrap {
+    width: auto;
+    height: 130px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space:nowrap;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.employees-sd {
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+    height: 100px;
+    margin: 5px 0 5px 5px;
+    border-right: 1px solid #cdd0d4;
+    background-color: white;
+}
+
+.name-employee {
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 16px;
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.count-request-employee {
+    padding-left: 5px;
+}
+
+.count-request-employee span {
+    padding-left: 3px;
+    font-size: 14px;
+}
+
+.count-request-employee img {
+    height: 16px;
+    position: relative;
+    vertical-align: text-bottom;
+    width: 16px;
+}
+
+.dist-request {
+    width: 100%;
+    background-color: white;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #cdd0d4;
+}
+
+td.first-td {
+    width: 60%;
+}
+
+td.second-td {
+    width: 40%;
+}
+
+div.preview-request {
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.dist-request td div {
+    padding: 2px;
+}
+
+div.block-distribution-request {
+    background-color: white;
+    padding: 5px;
+    display: block;
+    border-bottom: 1px solid #cdd0d4;
+}
+
+div.block-distribution-request div {
+    vertical-align: top;
+}
+
+div.block-distribution-request > div {
+    padding: 10px;
+    display: inline-block;
+}
+
+.string-distribution {
+    color: #777;
+}
+
+.caption-distribution {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.discription-table {
+    width: 90%;
+}
+
+.discription-table tr td {
+    vertical-align: top;
+}
+
+.discription-table tr {
+    height: 20px;
+}
+
+.discription-table span.red {
+    font-weight: bold;
+    color: #FF0000;
+}
+
+.link-jira {
+    width: 350px;
+}
+
+.link-to-jira {
+    width: 100%;
+}
+
+.link-to-jira td {
+    vertical-align: middle;
+}
+
+#BtnLoadRequestsId {
+    text-align: center; 
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #D0D5DA;
+    background-color: #F3F3F3;
+    cursor: pointer;
+}
+
+#BtnLoadRequestsId:hover {
+    background-color: #F6F6F6;
+}
+
+#BtnLoadRequestsId span {
+    font-size: 19px;
+
+}
+
+.gif-load {
+    vertical-align: text-bottom;
+    margin-left: 5px;
+    display: none;
+}
+
+.sd-work-log-table tr td {
+    padding: 5px !important;
+}
+
+.request_tabs {
+    position: relative;
+    background-color: #ffffff;
+    margin: 10px 0;
+}
+
+.request_tabs td {
+    border-style: solid;
+    border-color: #cdd0d4;
+    border-width: 1px 1px 2px 1px;
+}
+
+.request_tabs td a, .request_tabs td span {
+    color: #333;
+    display: block;
+    font-family: OpenSans;
+    font-size: 12px;
+    height: 23px;
+    padding: 9px 14px 4px;
+    white-space: nowrap;
+}
+
+.request_tabs td a:hover {
+    background-color: #f0f0f0;
+}
+
+.request_tabs td img {
+    vertical-align: text-top;
+}
+
+textarea.textarea-resize {
+    -moz-resize: vertical;
+    -ms-resize: vertical;
+    -o-resize: vertical;
+    resize: vertical;
+    overflow: auto;
+}
+
+tr.complete-request {
+    text-decoration: line-through;
+}
+
+.sd-worklog-details tr:hover{
+    background: #c0d2e8;
+    cursor: pointer;
+    color: black;
+}
+.sd-work-log-table {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border: 1px solid #c0d2e8 !important;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.summary-table {
+    border: 0!important;
+    border-bottom: 1px solid #e6e6e6!important;
+    padding: 3px 5px!important;
+    color: #686868;
+}
+
+.t-grid-table {
+    border: 0!important;
+    width: 100%;
+    border-collapse: separate;
+    empty-cells: show;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border: 1px solid #c0d2e8!important;
+}
+
+.t-grid-header {
+    color: #444;
+    background: none !important;
+}
+
+.t-header-content {
+    display: block;
+    padding: 5px 5px!important;
+    margin: 0;
+}
+
+.t-grid-table td {
+    border: 0!important;
+    border-bottom: 1px solid #e6e6e6!important;
+    padding: 3px 5px!important;
+    vertical-align: top;
+    font-size: 12px!important;
+    z-index: 1;
+    line-height: 1.6em;
+    overflow: hidden;
+}
+
+.table-form-container{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.support-private-item {
+    background-color: #fceeee !important;
+}
